@@ -9,6 +9,8 @@ export default function Home() {
       <p>(The landing page is still under development)</p>
       <Link href="/sign-in">Get started</Link>
       <ModeToggle />
+      <Link href="/sign-in">Sign-in</Link>
+      <Link href="/sign-up">Sign-up</Link>
     </div>
   );
 }
