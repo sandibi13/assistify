@@ -7,10 +7,13 @@ export default function Home() {
     <div>
       <h1>Assistify</h1>
       <p>(The landing page is still under development)</p>
-      <Link href="/sign-in">Get started</Link>
-      <ModeToggle />
+
       <Link href="/sign-in">Sign-in</Link>
       <Link href="/sign-up">Sign-up</Link>
+
+      <Link href="/settings">Settings</Link>
+
+      <ModeToggle />
     </div>
   );
 }
